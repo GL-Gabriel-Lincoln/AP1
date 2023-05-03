@@ -1,2 +1,2 @@
 # AP1
-ALGORITMOS E PROGRAMAÇÃO I
+Atividades de Algoritmos e Programação I
