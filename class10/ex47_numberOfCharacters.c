@@ -11,7 +11,8 @@ int contador(char *str) {
         return n;
     }
     
-    while(str[n] != '\0') {
+    for (int i = 0; str[i] != '\0'; i++) {
+
         n++;
     }
 
