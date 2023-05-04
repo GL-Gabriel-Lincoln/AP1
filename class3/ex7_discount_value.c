@@ -12,7 +12,7 @@ int main() {
     printf("Informe o valor de um produto: ");
     scanf("%f", &productValue);
 
-    finalProductValue = productValue - productValue * (10.0 / 100);
+    finalProductValue = productValue - (productValue * 0.1);
     
     printf("O valor final é: %f\n", finalProductValue);
 

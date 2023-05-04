@@ -20,5 +20,4 @@ func main() {
 	bmi = weight / (height * height)
 
 	fmt.Printf("O IMC é: %f\n", bmi)
-
 }
