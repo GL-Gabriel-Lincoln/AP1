@@ -6,6 +6,7 @@ package main
 import "fmt"
 
 func main() {
+
 	var n1, n2 int
 	var sum, subtraction, multiplication int
 	var division float32

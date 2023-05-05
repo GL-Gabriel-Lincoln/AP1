@@ -14,7 +14,7 @@ int main() {
 
         printf("O número %d é negativo.\n", n);
     }
-    else if(n >= 0) {
+    else if(n > 0) {
 
         printf("O número %d é positivo.\n", n);
     }
