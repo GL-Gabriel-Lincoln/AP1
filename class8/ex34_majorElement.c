@@ -18,7 +18,7 @@ int main() {
 
     for (int i = 0; i < 5; i++) {
 
-        if (v[i] > v[i + 1]) {
+        if (v[i] > majorElement) {
             majorElement = v[i];
         }
     }
