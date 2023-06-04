@@ -5,29 +5,22 @@ string “ap1” ela deve retornar “1pa”.*/
 #include <stdio.h>
 #include <stdlib.h>
 
-char* string(char *str) {
+char* reverseString(char *str) {
 
-    int size = 0;
+    int sizeStr = 0;
     
     for (int i = 0; str[i] != '\0'; i++) {
 
-        size += 1;
-
+        sizeStr += 1;
     }
 
-    char *result = (char*) malloc((size + 1) * sizeof(char));
+    char *result = (char*) malloc((sizeStr + 1) * sizeof(char));
 
     int i, j;
 
-    for (i = size - 1, j = 0; i >= 0; i--, j++) {
-        
-        printf("\n\nresult[%d]: %c\n\n", j, result[j]);
-        printf("\n\nstr[%d]: %c\n\n", i, str[i]);
+    for (i = sizeStr - 1, j = 0; i >= 0; i--, j++) {
 
         result[j] = str[i];
-
-        printf("\n\nResult[%d]: %c\n\n", j, result[j]);
-        printf("\n\nStr[%d]: %c\n\n", i, str[i]);
     }
 
     result[j] = '\0';
@@ -42,7 +35,7 @@ int main() {
     printf("Digite uma palavra: ");
     scanf("%s", str);
 
-    printf("%s\n", string(str));
+    printf("%s\n", reverseString(str));
 
     return 0;
 }
