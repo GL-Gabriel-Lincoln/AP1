@@ -12,8 +12,6 @@ char* join(char *str1, char *str2) {
 
     int i, j;
     
-    
-
     for (int i = 0; str1[i] != '\0'; i++) {
 
         size1 += i;
